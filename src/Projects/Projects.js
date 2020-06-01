@@ -8,9 +8,10 @@ import {
   Container,
   Link,
 } from "@material-ui/core";
+import {Link as RouteLink} from 'react-router-dom'
 import weather from "../images/weather.png";
 import chow from "../images/food.png";
-import news from "../images/sprout.png"
+import news from "../images/sprout.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -55,6 +56,7 @@ export default function Projects() {
     <Container maxWidth="xl">
       <Container maxWidth="xl" style={{background: "linear-gradient(rgb(246, 226, 212), rgb(255, 255, 255))", height: '30vh'}}>
         <h1>Projects</h1>
+        <h3><RouteLink to="/">Home</RouteLink></h3>
       </Container>
       <Container>
         <Grid container className={classes.root} spacing={2}>
@@ -70,7 +72,7 @@ export default function Projects() {
                   <Link href={project.url}>
                     <Paper className={classes.paper}>
                       <h1>{project.name}</h1>
-                      {/* <img src={project.image} width={300}/> */}
+                      <img src={project.image} width={300}/>
                     </Paper>
                   </Link>
                 </Grid>

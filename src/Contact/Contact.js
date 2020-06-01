@@ -6,6 +6,7 @@ import {
   TextareaAutosize,
   Button,
 } from "@material-ui/core";
+import {Link as RouteLink} from 'react-router-dom'
 import TextField from "@material-ui/core/TextField";
 import { makeStyles } from "@material-ui/core/styles";
 import { withStyles } from '@material-ui/core/styles';
@@ -49,6 +50,7 @@ class Contact extends Component {
           <Container>
       <Container style={{ background: "rgba(0,0,0,.5)" }} maxWidth="lg">
         <h1> Contact </h1>
+        <h3><RouteLink to="/">Home</RouteLink></h3>
         <Grid container>
           <Grid container justify="center" spacing={5}>
             <Grid item>

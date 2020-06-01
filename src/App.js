@@ -31,7 +31,7 @@ class App extends Component {
             <Projects/>
           </Route>
           <Route exact path="/about-me">
-            <h1>About me</h1>
+           <Aboutme/>
           </Route>
         </Router>
 
