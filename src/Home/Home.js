@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import brand from '../images/sam.png';
+import brand from '../assets/images/sam.png';
 
 
 

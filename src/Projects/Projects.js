@@ -9,9 +9,9 @@ import {
   Link,
 } from "@material-ui/core";
 import {Link as RouteLink} from 'react-router-dom'
-import weather from "../images/weather.png";
-import chow from "../images/food.png";
-import news from "../images/sprout.png";
+import weather from "../assets/images/weather.png";
+import chow from "../assets/images/food.png";
+import news from "../assets/images/sprout.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
